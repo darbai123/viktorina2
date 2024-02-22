@@ -10,8 +10,10 @@ body {
   font-family: fantasy;
   margin: 0;
   background-image: url('img/dviratis.jpg'); /* pakeiskite 'nuotraukos_nuoroda.jpg' į savo paveikslėlio URL */
-  background-size: contain;
-  background-position: center;
+/*   background-size: cover;
+  background-position: center; */
+  background-size: auto 100%;
+  background-position: right;
 }
 
 header {
